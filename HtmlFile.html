@@ -104,11 +104,11 @@
                 let $original = $('#Img_' + ind);
 
                 $target.prop("style", $original.attr("style"));
-                var n = parseInt($target[0].style.left.replace("px", "")) + 317;*/
+                var n = parseInt($target[0].style.left.replace("px", "")) + 317;
 
 
                 $target[0].style.left = parseInt(event.clientX) - parseInt(20) + "px";
-                $target[0].style.top = parseInt(event.clientY) + parseInt(100) + "px";
+                $target[0].style.top = parseInt(event.clientY) + parseInt(100) + "px";*/
                 $('#imageBoxDR_' + ind + '_' + pIndex).show();
 
                 $('#imageBoxDR_' + ind + '_' + pIndex).rotatable().draggable({
